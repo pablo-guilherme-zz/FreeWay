@@ -1,5 +1,8 @@
+let canvas;
+
 function setup() {
-  createCanvas(600, 400);
+  canvas = createCanvas(600, 400);
+  canvas.parent('canvas');
   soundTrack.loop();
 }
 
